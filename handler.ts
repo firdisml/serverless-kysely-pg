@@ -21,7 +21,7 @@ const db = new Kysely<Database>({
   // Use MysqlDialect for MySQL and SqliteDialect for SQLite.
   dialect: new PostgresDialect({
     pool: new Pool({
-      connectionString: 'postgresql://postgres:F4dAyuwzhcDnrfbC95DM@containers-us-west-154.railway.app:7791/railway'
+      connectionString: ''
     }),
   }),
 })
